@@ -20,9 +20,9 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+		"dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
 		"build": "tsc",
-		"start": "node dist/index.ts"
+		"start": "node dist/index.js"
 	},
 	"keywords": [],
 	"author": "",
